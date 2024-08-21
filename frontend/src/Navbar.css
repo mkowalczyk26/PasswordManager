@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbarLinks {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#generateBtn {
+    margin: 30px;
+}
+
+.passwordWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+}
+
+.passwordWrapper button {
+    font-size: small;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+#passwordDiv {
+    width: 350px;
+    height: 40px;
+    font-size: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px 30px;
+    text-align: center;
+}
+
